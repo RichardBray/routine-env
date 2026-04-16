@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "[ -d ~/routine-env/.claude/skills ] && cp -r ~/routine-env/.claude/skills/. ~/.claude/skills/"
+          }
+        ]
+      }
+    ]
+  }
+}
